@@ -10,4 +10,4 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 4. Import components into main schematic and refer to EspressIF's schematic to make connections
 5. Both created own components and also imported downloaded components
 6. Learned that for important pins, I can use two 27 resistors to improve signal quality and also if debugging needs to be done later that requires this pin to be disconnected, I can simply remove these resistors
-7. Original schematic is using microUSB, but I want to use USB-C -> went to 99Tech to search for boards that use USB-C to look at schematic to see how to connect for my board 
+7. Original schematic is using microUSB, but I want to use USB-C -> went to 99Tech to search for boards that use USB-C to look at schematic to see how to connect for my board -> find MOLEX USB-C connector
