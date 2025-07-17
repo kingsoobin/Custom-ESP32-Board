@@ -11,3 +11,7 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 5. Both created own components and also imported downloaded components
 6. Learned that for important pins, I can use two 27 resistors to improve signal quality and also if debugging needs to be done later that requires this pin to be disconnected, I can simply remove these resistors
 7. Original schematic is using microUSB, but I want to use USB-C -> went to 99Tech to search for boards that use USB-C to look at schematic to see how to connect for my board -> find MOLEX USB-C connector
+8. Assemble PCB schematic for USB-C based on 99Tech's schematic
+9. Learned that I can use a jumper instead of diode. Used jumper to connect 5V of USB connectors 1 and 2 to 5V source
+10. Learned about TVS Diodes used as protection.
+11. Created a 5V to 3.3V converter using a regulator. IC -> Power Management -> Voltage Regulators (Low drop out regulators)
