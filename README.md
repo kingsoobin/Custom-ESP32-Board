@@ -15,3 +15,5 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 9. Learned that I can use a jumper instead of diode. Used jumper to connect 5V of USB connectors 1 and 2 to 5V source
 10. Learned about TVS Diodes used as protection.
 11. Created a 5V to 3.3V converter using a regulator. IC -> Power Management -> Voltage Regulators (Low drop out regulators)
+12. Read datasheet of regulator to see how it needs to be connected. In this case, it was recommended for 10uF capacitor on output with ESR no more than 3 ohms. It also uses 10uF capacitor in INPUT, but looking at the USB 2.0 specification max capacitance on power, 10uF is the recommended max. So opted to look for smallest possible in the datasheet (1uF to 10uF).
+13. Created component that handles USB Connector to Serial Port 
