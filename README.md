@@ -4,7 +4,7 @@
 This is where I keep all my files and progress for my custom ESP32 board design and assembly on Altium Designer. 
 
 ## Log
-### Schematic Library & Connection
+### Schematic Library & Schematic Connection
 1. Find the ESP32-S3-DevKitM-1 manual on EspressIF's DevKits. Downloaded manual and schematic for the MINI-1
 2. Identify components in schematic and find in Digikey. Find the manufactuer's product number to search for components on LCSC Electronics. Check availability before importing Digikey Part Number for component information into Altium's Manufacturer's Part Search
 3. Create new component in SCH Library and import LCSC part number. Create component.
@@ -27,4 +27,6 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 19. Download footprint to all components in sch library and update schematic.
 ### Board Creation
 20. Go back to schematic sheet for esp32 dev kit to see board dimensions
-21. Place main components first before arranging the smaller one. I used the Sequentially Reposition Selected Components tool to stay organized and efficient. 
+21. Place main components first before arranging the smaller one. I used the Sequentially Reposition Selected Components tool to stay organized and efficient.
+### Board Connections
+22. Went to jlcPCB capabilities sheet again to look at the minimum trace width and spacing, minv via hole size, solder mask expansion to set the rules. 
