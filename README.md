@@ -4,6 +4,7 @@
 This is where I keep all my files and progress for my custom ESP32 board design and assembly on Altium Designer. 
 
 ## Log
+### Schematic Library & Connection
 1. Find the ESP32-S3-DevKitM-1 manual on EspressIF's DevKits. Downloaded manual and schematic for the MINI-1
 2. Identify components in schematic and find in Digikey. Find the manufactuer's product number to search for components on LCSC Electronics. Check availability before importing Digikey Part Number for component information into Altium's Manufacturer's Part Search
 3. Create new component in SCH Library and import LCSC part number. Create component.
@@ -16,4 +17,7 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 10. Learned about TVS Diodes used as protection.
 11. Created a 5V to 3.3V converter using a regulator. IC -> Power Management -> Voltage Regulators (Low drop out regulators)
 12. Read datasheet of regulator to see how it needs to be connected. In this case, it was recommended for 10uF capacitor on output with ESR no more than 3 ohms. It also uses 10uF capacitor in INPUT, but looking at the USB 2.0 specification max capacitance on power, 10uF is the recommended max. So opted to look for smallest possible in the datasheet (1uF to 10uF).
-13. Created component that handles USB Connector to Serial Port 
+13. Created component that handles USB Connector to Serial Port
+### Footprints
+14. Download and import .SchLib and .step files from Digikey and/or SnapEDA and/or 3DContentCentral for standard components: ie. resistor, capacitor
+15. Read drawing for more complex components to create own footprint: ie. headers
