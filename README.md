@@ -21,4 +21,10 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 ### Footprints
 14. Download and import .SchLib and .step files from Digikey and/or SnapEDA and/or 3DContentCentral for standard components: ie. resistor, capacitor
 15. Read drawing for more complex components (ie. headers) to create own footprint on Footprint Wizard in Altium (Dual In-line Packages): input hole dimensions
-16. referred to jlcPCB capabilities to see what is the smallest text I can put on the pcb when labeling 
+16. referred to jlcPCB capabilities to see what is the smallest text I can put on the pcb when labeling
+17. Created SMD component footprint (diode)
+18. For all the components that needed a footprint created, I went to its datasheet and looked for the Recommended Solder Pad Footprint for dimensions to create footprint on Footprint Wizard
+19. Download footprint to all components in sch library and update schematic.
+### Board Creation
+20. Go back to schematic sheet for esp32 dev kit to see board dimensions
+21. Place main components first before arranging the smaller one. I used the Sequentially Reposition Selected Components tool to stay organized and efficient. 
