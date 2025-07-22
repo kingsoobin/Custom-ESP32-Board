@@ -20,4 +20,5 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 13. Created component that handles USB Connector to Serial Port
 ### Footprints
 14. Download and import .SchLib and .step files from Digikey and/or SnapEDA and/or 3DContentCentral for standard components: ie. resistor, capacitor
-15. Read drawing for more complex components to create own footprint: ie. headers
+15. Read drawing for more complex components (ie. headers) to create own footprint on Footprint Wizard in Altium (Dual In-line Packages): input hole dimensions
+16. referred to jlcPCB capabilities to see what is the smallest text I can put on the pcb when labeling 
