@@ -29,5 +29,6 @@ This is where I keep all my files and progress for my custom ESP32 board design 
 20. Go back to schematic sheet for esp32 dev kit to see board dimensions
 21. Place main components first before arranging the smaller one. I used the Sequentially Reposition Selected Components tool to stay organized and efficient.
 ### Board Connections
-22. Went to jlcPCB capabilities sheet again to look at the minimum trace width and spacing, minv via hole size, solder mask expansion to set the rules.
+22. Went to jlcPCB capabilities sheet again to look at the minimum trace width and spacing, minv via hole size, solder mask expansion, and minimum clearance (pad to pad clearance) to set the rules.
 23. Made rules to override component clearance for the 0OHM pairs
+24. placing VIAs to connect from top board to bottom board
